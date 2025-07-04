@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeanWise - 技术支持</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #1d1d1f;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        h1 {
+            background: linear-gradient(135deg, #007AFF, #5856D6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+        .app-info {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border-left: 4px solid #007AFF;
+            transition: transform 0.3s ease;
+        }
+        .app-info:hover {
+            transform: translateY(-2px);
+        }
+        .contact-info {
+            background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border-left: 4px solid #2196F3;
+            transition: transform 0.3s ease;
+        }
+        .contact-info:hover {
+            transform: translateY(-2px);
+        }
+        .faq-item {
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 12px;
+            background: rgba(248, 249, 250, 0.8);
+            border: 1px solid rgba(0, 122, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        .faq-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 122, 255, 0.15);
+            border-color: rgba(0, 122, 255, 0.3);
+        }
+        .faq-question {
+            font-weight: 600;
+            color: #007AFF;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        .faq-answer {
+            color: #555;
+            line-height: 1.6;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(248, 249, 250, 0.5);
+            border-radius: 12px;
+        }
+        .social-links a {
+            display: inline-block;
+            color: #007AFF;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border: 2px solid #007AFF;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        .social-links a:hover {
+            background: #007AFF;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 122, 255, 0.3);
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+            font-size: 14px;
+            padding: 20px;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        a {
+            color: #007AFF;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+        .highlight {
+            background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .feature-card {
+            background: rgba(248, 249, 250, 0.8);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(0, 122, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 122, 255, 0.15);
+        }
+        .feature-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 LeanWise - 技术支持</h1>
+        
+        <div class="app-info">
+            <h2>🚀 关于LeanWise</h2>
+            <p><strong>应用名称：</strong><span class="highlight">LeanWise</span></p>
+            <p><strong>当前版本：</strong>1.0.0</p>
+            <p><strong>应用描述：</strong>LeanWise是一款智能效率管理工具，通过精简的设计和强大的功能，帮助用户提高工作效率，实现更好的时间管理和目标达成。</p>
+            <p><strong>支持平台：</strong>iOS 16.6+, </p>
+        </div>
+
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>数据分析</h3>
+                <p>深入的效率分析报告，帮助您了解并改善工作模式</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>目标追踪</h3>
+                <p>可视化的目标进度追踪，让成就感触手可及</p>
+            </div>
+        </div>
+        
+        <div class="contact-info">
+            <h2>📧 联系我们</h2>
+            <p><strong>技术支持邮箱：</strong>15995065135@163.com</p>
+            <p><strong>响应时间：</strong>我们会在 <span class="highlight">24小时内</span> 回复您的邮件</p>
+            <p><strong>客服时间：</strong>周一至周五 9:00-17:00 (UTC+8)</p>
+        </div>
+
+        <div class="faq-section">
+            <h2>❓ 常见问题</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: 如何同步我的数据到其他设备？</div>
+                <div class="faq-answer">A: 在设置中登录您的LeanWise账户，数据会自动同步到所有已登录的设备。确保网络连接正常，同步通常在几秒钟内完成。</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: 应用出现闪退或卡顿怎么办？</div>
+                <div class="faq-answer">A: 请尝试以下步骤：1) 完全关闭应用并重新打开；2) 重启您的设备；3) 检查是否有应用更新；4) 确保设备有足够的存储空间。如果问题仍然存在，请联系我们的技术支持。</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: 如何更新到最新版本？</div>
+                <div class="faq-answer">A: 在App Store或Google Play商店搜索"LeanWise"，如果有新版本可用，您会看到"更新"按钮。建议开启自动更新功能以获得最新功能和修复。</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: 支持哪些设备和系统版本？</div>
+                <div class="faq-answer">A: LeanWise支持iOS 16.6及以上版本及以上版本。</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: 我的数据安全吗？</div>
+                <div class="faq-answer">A: 是的，我们使用端到端加密保护您的数据，并严格遵守数据保护法规。您的隐私和数据安全是我们的首要任务。</div>
+            </div>
+
+        </div>
+
+        <div class="social-links">
+            <h2>🌟 关注我们</h2>
+            <a href="#" target="_blank">小红书</a>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 LeanWise. 保留所有权利。</p>
+            <p>最后更新：2025年07月 | <a href="#">隐私政策</a> | <a href="#">使用条款</a> | <a href="#">联系我们</a></p>
+        </div>
+    </div>
+</body>
+</html>
